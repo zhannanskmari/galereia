@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Виртуальная галерея — Анна Мельникова</title>
+  <meta name="description" content="Энергетическая живопись Анны Мельниковой. Виртуальная галерея: 72 оригинальные работы, акрил и текстурная паста.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;600&family=Manrope:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main class="gallery-page">
+  <header class="gallery-header">
+    <p class="gallery-header__name">Анна&nbsp;Мельникова</p>
+    <p class="gallery-header__title">Виртуальная галерея</p>
+
+    <div class="tabs" role="tablist">
+      <button class="tab is-active" id="tab-dynamic" role="tab" aria-selected="true">Динамичный просмотр</button>
+      <button class="tab" id="tab-grid" role="tab" aria-selected="false">Галерея: все картины</button>
+    </div>
+  </header>
+
+  <!-- Вкладка 1: динамичный слайдер -->
+  <section class="view view--dynamic is-active" id="view-dynamic">
+    <div class="controls">
+      <button class="ctrl-btn" id="play-toggle">Пауза</button>
+    </div>
+
+    <div class="gallery-slider">
+      <div class="gallery-slider__viewport">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-01">
+                <img src="img/works/sea-01.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-02">
+                <img src="img/works/sea-02.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-03">
+                <img src="img/works/sea-03.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-04">
+                <img src="img/works/sea-04.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-05">
+                <img src="img/works/sea-05.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-06">
+                <img src="img/works/sea-06.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-07">
+                <img src="img/works/sea-07.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-08">
+                <img src="img/works/sea-08.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-09">
+                <img src="img/works/sea-09.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-10">
+                <img src="img/works/sea-10.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-11">
+                <img src="img/works/sea-11.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-12">
+                <img src="img/works/sea-12.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-13">
+                <img src="img/works/sea-13.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-14">
+                <img src="img/works/sea-14.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-15">
+                <img src="img/works/sea-15.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="sea-16">
+                <img src="img/works/sea-16.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-01">
+                <img src="img/works/cosmos-01.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-02">
+                <img src="img/works/cosmos-02.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-03">
+                <img src="img/works/cosmos-03.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-04">
+                <img src="img/works/cosmos-04.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-05">
+                <img src="img/works/cosmos-05.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-06">
+                <img src="img/works/cosmos-06.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-07">
+                <img src="img/works/cosmos-07.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-08">
+                <img src="img/works/cosmos-08.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-09">
+                <img src="img/works/cosmos-09.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-10">
+                <img src="img/works/cosmos-10.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-11">
+                <img src="img/works/cosmos-11.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-12">
+                <img src="img/works/cosmos-12.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-13">
+                <img src="img/works/cosmos-13.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="cosmos-14">
+                <img src="img/works/cosmos-14.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-01">
+                <img src="img/works/portal-01.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-02">
+                <img src="img/works/portal-02.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-03">
+                <img src="img/works/portal-03.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-04">
+                <img src="img/works/portal-04.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-05">
+                <img src="img/works/portal-05.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-06">
+                <img src="img/works/portal-06.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-07">
+                <img src="img/works/portal-07.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-08">
+                <img src="img/works/portal-08.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-09">
+                <img src="img/works/portal-09.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-10">
+                <img src="img/works/portal-10.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-11">
+                <img src="img/works/portal-11.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-12">
+                <img src="img/works/portal-12.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-13">
+                <img src="img/works/portal-13.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-14">
+                <img src="img/works/portal-14.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="portal-15">
+                <img src="img/works/portal-15.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="light-01">
+                <img src="img/works/light-01.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="light-02">
+                <img src="img/works/light-02.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="light-03">
+                <img src="img/works/light-03.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="light-04">
+                <img src="img/works/light-04.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-01">
+                <img src="img/works/world-01.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-02">
+                <img src="img/works/world-02.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-03">
+                <img src="img/works/world-03.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-04">
+                <img src="img/works/world-04.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-05">
+                <img src="img/works/world-05.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-06">
+                <img src="img/works/world-06.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-07">
+                <img src="img/works/world-07.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-08">
+                <img src="img/works/world-08.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-09">
+                <img src="img/works/world-09.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="world-10">
+                <img src="img/works/world-10.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-01">
+                <img src="img/works/interior-01.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-02">
+                <img src="img/works/interior-02.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-03">
+                <img src="img/works/interior-03.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-04">
+                <img src="img/works/interior-04.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-05">
+                <img src="img/works/interior-05.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-06">
+                <img src="img/works/interior-06.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-07">
+                <img src="img/works/interior-07.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-08">
+                <img src="img/works/interior-08.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-09">
+                <img src="img/works/interior-09.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-10">
+                <img src="img/works/interior-10.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-11">
+                <img src="img/works/interior-11.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-12">
+                <img src="img/works/interior-12.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+            <div class="swiper-slide">
+              <button class="float-card js-view" data-id="interior-13">
+                <img src="img/works/interior-13.jpg" alt="" loading="lazy">
+              </button>
+            </div>
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <button class="nav-arrow nav-arrow--prev" aria-label="Предыдущая">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="nav-arrow nav-arrow--next" aria-label="Следующая">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Вкладка 2: статичная галерея -->
+  <section class="view view--grid" id="view-grid" hidden>
+    <div class="masonry">
+      
+      <button class="grid-card js-view" data-id="sea-01">
+        <img src="img/works/sea-01.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-02">
+        <img src="img/works/sea-02.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-03">
+        <img src="img/works/sea-03.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-04">
+        <img src="img/works/sea-04.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-05">
+        <img src="img/works/sea-05.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-06">
+        <img src="img/works/sea-06.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-07">
+        <img src="img/works/sea-07.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-08">
+        <img src="img/works/sea-08.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-09">
+        <img src="img/works/sea-09.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-10">
+        <img src="img/works/sea-10.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-11">
+        <img src="img/works/sea-11.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-12">
+        <img src="img/works/sea-12.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-13">
+        <img src="img/works/sea-13.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-14">
+        <img src="img/works/sea-14.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-15">
+        <img src="img/works/sea-15.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="sea-16">
+        <img src="img/works/sea-16.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-01">
+        <img src="img/works/cosmos-01.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-02">
+        <img src="img/works/cosmos-02.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-03">
+        <img src="img/works/cosmos-03.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-04">
+        <img src="img/works/cosmos-04.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-05">
+        <img src="img/works/cosmos-05.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-06">
+        <img src="img/works/cosmos-06.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-07">
+        <img src="img/works/cosmos-07.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-08">
+        <img src="img/works/cosmos-08.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-09">
+        <img src="img/works/cosmos-09.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-10">
+        <img src="img/works/cosmos-10.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-11">
+        <img src="img/works/cosmos-11.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-12">
+        <img src="img/works/cosmos-12.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-13">
+        <img src="img/works/cosmos-13.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="cosmos-14">
+        <img src="img/works/cosmos-14.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-01">
+        <img src="img/works/portal-01.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-02">
+        <img src="img/works/portal-02.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-03">
+        <img src="img/works/portal-03.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-04">
+        <img src="img/works/portal-04.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-05">
+        <img src="img/works/portal-05.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-06">
+        <img src="img/works/portal-06.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-07">
+        <img src="img/works/portal-07.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-08">
+        <img src="img/works/portal-08.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-09">
+        <img src="img/works/portal-09.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-10">
+        <img src="img/works/portal-10.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-11">
+        <img src="img/works/portal-11.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-12">
+        <img src="img/works/portal-12.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-13">
+        <img src="img/works/portal-13.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-14">
+        <img src="img/works/portal-14.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="portal-15">
+        <img src="img/works/portal-15.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="light-01">
+        <img src="img/works/light-01.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="light-02">
+        <img src="img/works/light-02.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="light-03">
+        <img src="img/works/light-03.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="light-04">
+        <img src="img/works/light-04.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-01">
+        <img src="img/works/world-01.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-02">
+        <img src="img/works/world-02.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-03">
+        <img src="img/works/world-03.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-04">
+        <img src="img/works/world-04.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-05">
+        <img src="img/works/world-05.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-06">
+        <img src="img/works/world-06.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-07">
+        <img src="img/works/world-07.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-08">
+        <img src="img/works/world-08.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-09">
+        <img src="img/works/world-09.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="world-10">
+        <img src="img/works/world-10.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-01">
+        <img src="img/works/interior-01.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-02">
+        <img src="img/works/interior-02.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-03">
+        <img src="img/works/interior-03.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-04">
+        <img src="img/works/interior-04.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-05">
+        <img src="img/works/interior-05.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-06">
+        <img src="img/works/interior-06.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-07">
+        <img src="img/works/interior-07.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-08">
+        <img src="img/works/interior-08.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-09">
+        <img src="img/works/interior-09.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-10">
+        <img src="img/works/interior-10.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-11">
+        <img src="img/works/interior-11.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-12">
+        <img src="img/works/interior-12.jpg" alt="" loading="lazy">
+      </button>
+      
+      <button class="grid-card js-view" data-id="interior-13">
+        <img src="img/works/interior-13.jpg" alt="" loading="lazy">
+      </button>
+      
+    </div>
+  </section>
+</main>
+
+<footer class="gallery-footer">
+  <p>По вопросам приобретения:</p>
+  <p><a href="tel:+79782059576">+7 978 205 95 76</a></p>
+  <p><a href="https://vk.ru/id59980163">https://vk.ru/id59980163</a></p>
+  <p><a href="#">@anna_melanart</a></p>
+</footer>
+
+<!-- Полноэкранный просмотр -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close js-bg-close" aria-label="Закрыть">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg>
+  </button>
+  <figure class="lightbox__frame">
+    <img id="lightbox-img" src="" alt="">
+  </figure>
+  <button class="lightbox__arrow lightbox__arrow--prev js-prev" aria-label="Предыдущая">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button class="lightbox__arrow lightbox__arrow--next js-next" aria-label="Следующая">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
