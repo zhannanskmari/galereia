@@ -194,25 +194,32 @@ img { display: block; max-width: 100%; }
 /* ---------- Footer contacts ---------- */
 .gallery-footer {
   text-align: center;
-  padding: 44px 20px 58px;
+  padding: 52px 20px 64px;
   border-top: 1px solid var(--line);
 }
-.gallery-footer p { font-size: clamp(0.85rem, 2vw, 0.95rem); letter-spacing: 0.06em; color: var(--muted); }
-.gallery-footer p:first-child {
+.gallery-footer__label {
   color: var(--text);
-  margin-bottom: 14px;
-  font-size: 0.78rem;
+  font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+  font-weight: 400;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  letter-spacing: 0.22em;
+  margin-bottom: 26px;
 }
-.gallery-footer a {
+.gallery-footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.gallery-footer__item a {
   color: var(--text);
   text-decoration: none;
-  margin-top: 6px;
-  display: inline-block;
+  font-size: clamp(1.25rem, 3.5vw, 1.7rem);
+  font-weight: 400;
+  letter-spacing: 0.03em;
   transition: color 0.25s ease;
 }
-.gallery-footer a:hover { color: var(--accent); }
+.gallery-footer__item a:hover { color: var(--accent); }
 
 /* ---------- Lightbox ---------- */
 .lightbox {
